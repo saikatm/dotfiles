@@ -34,6 +34,14 @@ alt + shift + b
 
 alt + shift + n
 	nautilus
+	
+# Screenshot with flameshot
+Print
+    flameshot gui
+
+# Floating terminal
+alt + shift + Return
+	bspc rule -a floatterm state=floating center=true && kitty --class floatterm
 
 # change wallpaper
 alt + w
