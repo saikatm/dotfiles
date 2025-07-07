@@ -97,6 +97,7 @@ bspc rule -a evince state=floating
 bspc rule -a parcellite state=floating
 
 bspc rule -a gnome-calculator state=floating
+bspc rule -a Gnome-calculator state=floating
 bspc rule -a calculator state=floating
 
 bspc rule -a zenity:zenity state=floating center=on border=off
